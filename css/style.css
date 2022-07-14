@@ -5,9 +5,10 @@
     padding: 0;
     margin: 0;
 }
+
 /* ----Variables---- */
 :root {
-    --MainColor: skyblue;
+    --MainColor: #e93600;
 }
 
 body {
@@ -254,6 +255,10 @@ header .fa-bars {
     outline: none;
 }
 
+.intro-info button:hover {
+    color: #8b7979;
+}
+
 @media (max-width: 600px) {
     .intro-info h2 {
         font-size: 2.2em;
@@ -415,13 +420,6 @@ header .fa-bars {
 
 .end button {
     margin-top: 20px;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #fff;
-    background-color: var(--MainColor);
-    border: var(--MainColor) 1px solid;
-    border-radius: 20px;
-    transition: .3s;
 }
 
 @media (max-width: 600px) {
