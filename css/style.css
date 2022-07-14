@@ -184,7 +184,7 @@ header .fa-bars {
 @media (max-width: 600px) {
     .intro {
         width: 100%;
-        padding: 30px;
+        padding: 30px 20px;
     }
 
     header button {
@@ -197,7 +197,7 @@ header .fa-bars {
 /* ------End Header------ */
 .intro .intro-info {
     width: fit-content;
-    height: fit-co, ntent;
+    height: fit-content;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
